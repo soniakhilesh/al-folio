@@ -14,7 +14,7 @@ social: true  # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-Akhilesh is a Ph.D student at University of Wisconsin Madison in the department of Industrial and Systems Engineering.
+Akhilesh is a Ph.D student at University of Wisconsin-Madison in the department of Industrial and Systems Engineering.
 His reserach interests include developing methods to solve large-scale optimization problem arising in supply chain, scheduling, and machine learning applications.
 
 ## Education
