@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+    gem 'jekyll-mermaid'
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
