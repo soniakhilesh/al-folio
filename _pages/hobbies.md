@@ -25,7 +25,7 @@ nav_order: 3
 
   <br><br><br><br><br><br><br><br><br><br><br><br>
   <p>
-  <img style="float:right; width:12vw;min-width:220px;margin: 0px 0px 0px 10px;" src="../assets/img/me-cooking.jpg">
+  <img style="float:right; width:12vw;min-width:220px;margin: 0px 0px 0px 10px;" src="../assets/img/me-cooking.JPG">
   
   <img style="float:right; width:12vw;min-width:220px;" src="../assets/img/me-cooking-2.png">
   </p>
