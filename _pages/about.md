@@ -5,7 +5,7 @@ permalink: /
 subtitle: soni6 [at] wisc [dot] edu. <br><a href='assets/pdf/Akhilesh_CV_PhD.pdf'> Download my resume</a>.
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_cicular: true # crops the image to make it circular
   address: 
 news: false  # includes a list of news items
