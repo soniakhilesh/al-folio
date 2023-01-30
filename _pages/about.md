@@ -2,20 +2,22 @@
 layout: about
 title: Home
 permalink: /
-subtitle: soni6 [at] wisc [dot] edu. <br><a href='assets/pdf/Akhilesh_CV_PhD.pdf'> Download my resume</a>.
+subtitle: soni6 [at] wisc [dot] edu. <br><a href='assets/pdf/Akhilesh_Soni_resume.pdf'> Download my resume</a>.
 profile:
   align: right
   image: profile.jpg
-  image_cicular: true # crops the image to make it circular
-  address: 
+  image_cicular: false # crops the image to make it circular
+  address: <p>4235D-1, WID</p> <p>330 N Orchard Street</p> <p>Madison, WI 53715</p>
 news: false  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 nav_order: 1
 ---
 
-Akhilesh is a Ph.D student at University of Wisconsin-Madison in the department of Industrial and Systems Engineering.
-His reserach interests include developing methods to solve large-scale optimization problem arising in supply chain, scheduling, and machine learning applications.
+Akhilesh is currently a Ph.D. candidate at University of Wisconsin-Madison in the department of Industrial and Systems Engineering.
+Akhilesh interned with Modeling and Optimization group at Amazon in 2020 and 2021.
+
+His reserach interests include developing methods for solving large-scale optimization problem arising in supply chain, scheduling, and machine learning applications.
 
 ## Education
 
@@ -23,6 +25,18 @@ His reserach interests include developing methods to solve large-scale optimizat
    {% include cv/time_table.html %}
 {% endfor %}
 
+
+<div class="publications">
+<h2>Publications</h2>
+{% bibliography -f papers -q @*[selected=true]* %}
+</div>
+
+## Coursework
+- **Industrial and Systems Engineering**
+  - Intro to Optimization Modeling, Linear Optimization, Integer Optimization, Nonlinear Programming, Engineering models for supply chain, Health systmes engineering, Stochastic modeling, Machine learning in action, Simulation modeling
+- **Computer Science/ Maths**
+  - Intro to algorithms, Dynamic Programming, Matrix methods in machine learning, Stochastic Programming, Real analysis, Intro to Combinatorial Optimization, Mathematical foundations of machine learning
+  
 
 
 <!--- This is an HTML comment in Markdown

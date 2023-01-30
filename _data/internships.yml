@@ -1,0 +1,23 @@
+- title: Internships
+  type: time_table
+  contents:
+    - title: Amazon, Seattle, WA
+      institution: 
+      year: 2021
+      description:
+        - Developed an end-to-end framework consisting of a Graph Neural Network (GNN) and a Multi Layer Perceptron (MLP) to predict the probability of path selection by a mixed-integer programming model solving the middle mile network design problem
+        - Tools and technologies used- Graph Neural Networks, PyTorch, Sagemaker, Python
+
+    - title: Amazon, Virtual
+      institution: 
+      year: 2020
+      description:
+        - Devised a regional decomposition technique for solving a large-scale middle mile network design problem, leveraging local fulfilment in the network with Lagrangian relaxation
+        - Tools and technologies- Java
+
+    - title: Schneider National, Greenbay, WI
+      institution: 
+      year: 2019
+      description:
+        - Developed a cost forecasting model to predict carrier freight rates in spot market in USA
+        - Tools and technologies used- Python, SQL, Time series forecasting
