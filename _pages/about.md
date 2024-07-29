@@ -2,22 +2,20 @@
 layout: about
 title: Home
 permalink: /
-subtitle: soni6 [at] wisc [dot] edu. <br><a href='assets/pdf/Akhilesh_Soni_resume.pdf'> Download my resume</a>.
+subtitle: akhileshsoni95 [at] gmail [dot] com <br><a href='assets/pdf/Akhilesh_Soni_resume.pdf'> Download my resume</a>.
 profile:
   align: right
   image: profile.jpg
   image_cicular: false # crops the image to make it circular
-  address: <p>4235D-1, WID</p> <p>330 N Orchard Street</p> <p>Madison, WI 53715</p>
+  address: <p>Bellevue, WA, USA</p>
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 nav_order: 1
 ---
+Akhilesh is currently an Applied Scientist at Amazon, where he works on large scale vehicle routing problems. He holds an MS and PhD in Operations Research (Industrial Engineering), and an MS in Computer Science from the University of Wisconsin-Madison. During his PhD, Akhilesh worked with <a href='https://jlinderoth.github.io/'> Prof. Jeff Linderoth </a> and <a href='https://jrluedtke.github.io/'> Prof. Jim Luedtke </a> at the <br><a href='https://engineering.wisc.edu/departments/industrial-systems-engineering/'> Department of Industrial & Systems Engineering</a>, and at  <br><a href='https://wid.wisc.edu/'> Wisconsin Institue of Discovery</a>. Priro to this, Akhilesh earned his Bachelor’s in Mechanical Engineering from IIT (ISM) Dhanbad.
 
-Akhilesh is currently a Ph.D. candidate at University of Wisconsin-Madison in the department of Industrial and Systems Engineering.
-Akhilesh interned with Modeling and Optimization group at Amazon in 2020 and 2021.
-
-His reserach interests include developing methods for solving large-scale optimization problem arising in supply chain, scheduling, and machine learning applications.
+Akhilesh is passionate about developing advanced algorithms and optimization frameworks for complex decision-making problems with real-life applications. His research interests include developing methods for solving large-scale optimization problems in supply chain, vehicle routing, scheduling, and machine learning applications.
 
 ## Education
 
@@ -25,20 +23,23 @@ His reserach interests include developing methods for solving large-scale optimi
    {% include cv/time_table.html %}
 {% endfor %}
 
-
 <div class="publications">
 <h2>Publications</h2>
 {% bibliography -f papers -q @*[selected=true]* %}
 </div>
 
+## Academic Achievements
+- Spotlight presentation, Optimization and Machine Learning workshop, NeurIPS, 2021
+- Travel grant for Mixed Integer Programming workshop, 2021
+- Recipient of Vinod K \& J. Gail Sahney Scholarship at UW-Madison, 2020
+- Recipient of Mitacs Fellowship to intern at University of Windsor, Canada, 2016
+
 ## Coursework
 - **Industrial and Systems Engineering**
-  - Intro to Optimization Modeling, Linear Optimization, Integer Optimization, Nonlinear Programming, Engineering models for supply chain, Health systmes engineering, Stochastic modeling, Machine learning in action, Simulation modeling
+  - Introduction to Optimization Modeling, Linear Optimization, Integer Optimization, Nonlinear Programming, Engineering models for supply chain, Health systmes engineering, Stochastic modeling, Machine learning in action, Simulation modeling
 - **Computer Science/ Maths**
-  - Intro to algorithms, Dynamic Programming, Matrix methods in machine learning, Stochastic Programming, Real analysis, Intro to Combinatorial Optimization, Mathematical foundations of machine learning
+  - Intro to algorithms, Dynamic Programming, Matrix methods in machine learning, Stochastic Programming, Real analysis, Introduction to Combinatorial Optimization, Mathematical foundations of machine learning
   
-
-
 <!--- This is an HTML comment in Markdown
 * Ph.D. in Industrial and Systems Engineering, UW-Madison, 2023 (Expected)
   - Advisors: [Prof. Jeff Linderoth](https://jlinderoth.github.io/), [Prof. Jim Luedtke](https://jrluedtke.github.io/)

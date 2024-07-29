@@ -13,3 +13,9 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+.entry-number {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #333;
+}

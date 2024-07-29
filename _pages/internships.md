@@ -7,6 +7,11 @@ nav: true
 nav_order: 2
 ---
 
+## Job Experience
+{% for entry in site.data.fullTime %}
+   {% include cv/time_table.html %}
+{% endfor %}
+
 ## Internships
 
 {% for entry in site.data.internships %}
@@ -14,20 +19,31 @@ nav_order: 2
 {% endfor %}
 
 
-## Presentations
-- **Talks**
-	- INFORMS optimization society, 2022
-	- INFORMS annual meeting, 2021
-	- Optimization and machine learning workshop, NeurIPS, 2021
-- **Poster**
-	- Mixed Integer Programming Workshop, 2021
+## Poster and Presentations	
+- **Mixed Integer Programming Workshop**
+    - Regional decomposition for network design, Oct 2023
+	- Integer programming approach to high-rank matrix completion, May 2021
+	- Mixed integer programming for unconventional oil field development, May 2020
+
+- **Conference on Integer Programming and Combinatorial Optimization**
+	- Binary matrix completion over GF(2) June 2023
+	
+- **INFORMS Annual Conference & INFORMS Optimization Society**
+	- Regional decomposition for network design, Oct 2023
+	- Integer programming approach to subspace clustering with missing data, Mar 2022
+    - Mixed integer programming for unconventional oil field development, Oct 2020
+	
+- **NeurIPS, Optimization and Machine Learning Workshop**
+    - Integer programming approach to subspace clustering with missing data, Dec 2021
 
 ## Teaching & Service
-- Teaching Assistant, 2020: ISyE 323-Intro to Operations Research
+- Teaching Assistant, 2020: ISyE 323-Introduction to Operations Research
 - INFORMS UW-Madison Student Chapter
   - President, 2021-22
   - Vice President, 2020-21
-- Reviewer: Annals of Operations Research
+- Reviewer
+  - Optimizaiton Letters
+  - Operations Research
 
 <!-- <div class="post"> -->
 <!--   <div class="header-bar"> -->

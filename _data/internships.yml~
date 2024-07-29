@@ -1,0 +1,23 @@
+- title: Internships
+  type: time_table
+  contents:
+    - title: Amazon, Seattle, WA
+      institution: 
+      year: 2021
+      description:
+        - Learning framework for reducing search space for a network design problem
+        - Tools and technologies used- Graph Neural Networks, PyTorch, Sagemaker, Python
+
+    - title: Amazon, Virtual
+      institution: 
+      year: 2020
+      description:
+        - Decomposition based solution approach for network design in middle mile domain
+        - Tools and technologies- Java
+
+    - title: Schneider National, Greenbay, WI
+      institution: 
+      year: 2019
+      description:
+        - Cost forecasting model to predict carrier truckload freight rates in spot market
+        - Tools and technologies used- Python, SQL, Time series forecasting
